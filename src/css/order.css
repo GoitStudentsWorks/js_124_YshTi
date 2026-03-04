@@ -17,9 +17,13 @@
   padding: 64px 20px 64px;
   width: 100%;
   max-width: 335px;
+  max-height: 90vh;
   height: 763px;
   border-radius: 8px;
   background-color: #f6f4f1;
+
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .modalCloseButton {
