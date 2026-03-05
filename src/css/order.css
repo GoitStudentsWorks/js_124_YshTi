@@ -153,6 +153,11 @@
   display: block;
 }
 
+.isHidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
 @media (min-width: 768px) {
   .modal {
     padding: 64px 32px 64px;
