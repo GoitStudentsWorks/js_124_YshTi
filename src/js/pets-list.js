@@ -147,6 +147,10 @@ function showLoader() {
   LOADER.classList.remove('IsHidden');
 }
 
-showLoader();
-await loadCategories();
-await loadAnimals();
+async function initPets() {
+  showLoader();
+  await loadCategories();
+  await loadAnimals();
+}
+
+initPets();
