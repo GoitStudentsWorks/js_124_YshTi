@@ -32,6 +32,8 @@ export function openModalForm(animalId) {
       try {
         await createOrder(formData);
 
+        console.log(formData);
+
         Swal.fire({
           icon: 'success',
           title: 'Успіх!',
