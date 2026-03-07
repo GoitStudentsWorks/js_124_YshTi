@@ -13,9 +13,9 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.faq-accordion .ac').forEach(item => {
       const icon = item.querySelector('.faq-icon use');
       if (item.classList.contains('is-active')) {
-        icon.setAttribute('href', '/img/sprite.svg#icon-close');
+        icon.setAttribute('href', './img/sprite.svg#icon-close');
       } else {
-        icon.setAttribute('href', '/img/sprite.svg#icon-add');
+        icon.setAttribute('href', './img/sprite.svg#icon-add');
       }
     });
   }
