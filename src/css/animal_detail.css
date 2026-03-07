@@ -234,6 +234,7 @@ body.modal-open {
     cursor: pointer;
     width: 295px;
     height: 45px;
+    margin-top: 8px;
     font-family: "IBM Plex Sans",sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -256,7 +257,6 @@ body.modal-open {
     .btn-adopt {
         order: 2;
         width: 304px;
-        height: 53px;
     }
 }
 @media screen and (min-width: 1440px) {
