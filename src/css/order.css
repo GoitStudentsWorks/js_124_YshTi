@@ -153,6 +153,10 @@
   display: block;
 }
 
+.body-no-scroll {
+  overflow: hidden;
+}
+
 .isHidden {
   opacity: 0;
   visibility: hidden;
