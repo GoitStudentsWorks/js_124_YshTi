@@ -6,9 +6,15 @@ const form = document.querySelector('form');
 const backdrop = document.querySelector('.backdrop');
 const modalCloseButton = document.querySelector('.modalCloseButton');
 
+function openModal() {
+  backdrop.classList.remove('isHidden');
+  document.body.classList.add('body-no-scroll');
+}
+
 function closeModal() {
   backdrop.classList.add('isHidden');
   form.reset();
+  document.body.classList.remove('body-no-scroll');
 }
 
 modalCloseButton.addEventListener('click', closeModal);
