@@ -1,4 +1,4 @@
-.header-container {
+.header_container {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -122,23 +122,11 @@ a{
   margin: 0;
   padding: 0;
 }
-@media only screen and (max-width: 375px) {
-  .header_container {
-    max-width: 375px;
-  }
-}
-/* Styles for Tablet devices */
-@media only screen and (min-width: 770px) {
-  .header_container {
-    min-width: 770px;
-  }
 
-}
+/* Styles for Tablet devices */
+
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1200px) {
-  .header_container {
-    min-width: 1200px;
-  }
     .menu-list{
     display: flex;
     flex-direction: row;
@@ -157,19 +145,38 @@ a{
 }
 }
 
-@media only screen and (768px <= width < 1440px){
-  header{
-    display: flex;
-    justify-content: center;
-  }
-.header-container{
+@media only screen and (375px <= width <= 768px){
+.header_container{
+  width: 100%;
   max-width: 768px ;
 }
 }
+@media only screen and (768px <= width < 1440px){
+
+  header{
+    display: flex;
+    justify-content: center ;
+  }
+.header_container{
+  max-width: 768px;
+}
+}
+@media only screen and (1440px< width ){
+
+  header{
+    display: flex;
+    justify-content: center ;
+  }
+.header_container{
+  max-width: 1440px;
+}
+}
+
 
 
 
 @media only screen and (width >= 1440px){
+
 
 .nav-burgermenu{
   display: none;
