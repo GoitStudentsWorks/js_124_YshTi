@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Group_Project_JS/",
+    "build": "vite build --base=/js_124_YshTi/",
     "preview": "vite preview"
   },
   "devDependencies": {
